@@ -1,0 +1,12 @@
+name: crop-loss-EPAR
+channels:
+- conda-forge
+- defaults
+- anaconda
+dependencies:
+- matplotlib=2.2.2
+- rasterio
+- numpy=1.14.5
+- pandas=0.23.3
+- pip:
+  - rasterfoundry[notebook]

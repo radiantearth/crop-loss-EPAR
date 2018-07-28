@@ -6,8 +6,10 @@ channels:
 dependencies:
 - matplotlib=2.2.2
 - rasterio
-- numpy=1.14.5
+- numpy
 - pandas=0.23.3
 - pyshp=1.2.11
+- basemap=1.0.7
 - pip:
   - rasterfoundry[notebook]
+  - descarteslabs[complete]
